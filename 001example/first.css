@@ -1,0 +1,65 @@
+*{ margin: 0;padding: 0;} /*初始化*/
+
+.touxian{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    background: url(images/kkk.jpg);
+    background-size:40px 40px;
+    display: inline-block;
+}
+.tg{
+    border: none;
+    background-color: #FF3030;
+    width: 100px;
+    height: 40px;
+    border-radius:6px;
+    color: white;
+}
+.right span{
+    display: inline-block;
+    margin-right: 10px;
+}
+.right{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.right span a{
+    line-height: 40px;
+    color: white;
+}
+div .spana a{
+    color: rgb(19, 123, 241);
+    font-size: 16px;
+    margin-right: 10px;
+}
+div.row{
+    margin-right: 10px;
+    display: inline-block;
+}
+div.head{
+    display: inline-block;
+    margin-left: 30px;
+    z-index: 100;
+}
+div.head a{
+    color: white;
+}
+div.dl{
+    z-index: 100;
+    display: inline-block;
+    margin-right: 30px;
+}
+div.daohan{
+    width: 100%;
+    height: 40px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+div.math{
+    float: inline-start;
+}
